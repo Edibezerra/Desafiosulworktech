@@ -1,0 +1,41 @@
+/* ListaParticipantes.css */
+.container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Cor de fundo da seção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+h2 {
+    color: #2C3E50; /* Cor do título */
+    text-align: center; /* Centralizar o título */
+}
+
+table {
+    width: 100%; /* Tabela ocupa 100% da largura do container */
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    margin-top: 20px; /* Espaçamento acima da tabela */
+}
+
+th, td {
+    border: 1px solid #3498DB; /* Cor da borda das células */
+    padding: 10px; /* Espaçamento interno nas células */
+    text-align: left; /* Alinhamento do texto */
+}
+
+th {
+    background-color: #3498DB; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+tr:hover {
+    background-color: #e1f5fe; /* Cor de fundo ao passar o mouse */
+}
+
+.no-participants {
+    text-align: center; /* Centraliza o texto quando não há participantes */
+    color: #7f8c8d; /* Cor do texto para mensagem de "nenhum participante encontrado" */
+}
